@@ -23,11 +23,11 @@ Este é um sistema desenvolvido para realizar o upload de arquivos CSV, onde os 
 O sistema aceita arquivos CSV com o seguinte formato:
 
 - O arquivo CSV deve conter 5 colunas, conforme listado abaixo:
-   `code` (string)
-   `description` (string)
-   `quantity` (number)
-   `price` (number)
-   `total_price` (number)
+  - `code` (string)
+  -`description` (string)
+  - `quantity` (number)
+  - `price` (number)
+  - `total_price` (number)
 
 - A primeira linha do arquivo CSV é ignorada, pois é considerada como cabeçalho.
 
