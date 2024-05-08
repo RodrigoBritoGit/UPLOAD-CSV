@@ -56,6 +56,7 @@ Antes de iniciar o sistema, é necessário configurar o ambiente:
 1. Navegue até a pasta do frontend.
 2. Execute `npm install` para instalar as dependências.
 3. Execute `npm run dev` para iniciar o servidor de desenvolvimento.
+4. Acesse a aplicação frontend em `http://localhost:3000`.
 
 ## Contribuição
 
