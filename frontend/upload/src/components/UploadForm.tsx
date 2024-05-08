@@ -11,11 +11,12 @@ const UploadForm = () => {
         }
         if (info.file.status === 'done') {
             message.success(`${info.file.name} Upload realizado com sucesso`);
-            window.location.reload(); // Recarregar a página após o upload bem-sucedido
+            setTimeout(() => {
+                window.location.reload();
+            }, 4000);
         } else if (info.file.status === 'error') {
             message.error(`${info.file.name} Erro ao processar arquivo.`);
         }
-
     };
 
     return (
