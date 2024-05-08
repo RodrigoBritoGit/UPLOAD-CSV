@@ -24,7 +24,7 @@ O sistema aceita arquivos CSV com o seguinte formato:
 
 - O arquivo CSV deve conter 5 colunas, conforme listado abaixo:
   - `code` (string)
-  -`description` (string)
+  - `description` (string)
   - `quantity` (number)
   - `price` (number)
   - `total_price` (number)
